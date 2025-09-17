@@ -42,11 +42,11 @@ Install dependencies:
    ```
 ## ⚙️ Tech Stack
 
-Python 3.9+
-Streamlit
-Pandas
-Matplotlib & Seaborn
-Scikit-learn
+Python 3.9+  
+Streamlit  
+Pandas  
+Matplotlib & Seaborn  
+Scikit-learn  
 
 ## 📝 License
 
