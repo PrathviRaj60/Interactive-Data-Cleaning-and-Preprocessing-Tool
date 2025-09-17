@@ -17,6 +17,10 @@ Upload your CSV file, handle missing values, detect outliers, encode categorical
 
 ---
 
+## Testing
+ Try out the project using any dataset or use this: [Dataset for Cleaning and Preprocessing](https://drive.google.com/file/d/1OEA1DUkb245sqTYkCpopYTeCQk1XvsBX/view?usp=sharing)
+
+
 ## 📦 Installation
 
 1. Clone this repository:
@@ -24,16 +28,18 @@ Upload your CSV file, handle missing values, detect outliers, encode categorical
    ```bash
    git clone https://github.com/yPrathviRaj60/data-cleaning-tool.git data-cleaning-tool
    cd data-cleaning-tool
+   ```
 
 (Optional but recommended) Create a virtual environment:
-python -m venv env
-source env/bin/activate    # Mac/Linux
-env\Scripts\activate       # Windows
-
+   ```bash
+   python -m venv env
+   source env/bin/activate    # Mac/Linux
+   env\Scripts\activate       # Windows
+   ```
 Install dependencies:
-pip install -r requirements.txt
-
-
+   ```bash
+   pip install -r requirements.txt
+   ```
 ## ⚙️ Tech Stack
 
 Python 3.9+
