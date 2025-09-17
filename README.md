@@ -25,10 +25,10 @@ Upload your CSV file, handle missing values, detect outliers, encode categorical
 
 1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/yPrathviRaj60/data-cleaning-tool.git data-cleaning-tool
-   cd data-cleaning-tool
-   ```
+```bash
+git clone https://github.com/yPrathviRaj60/data-cleaning-tool.git data-cleaning-tool
+cd data-cleaning-tool
+```
 
 (Optional but recommended) Create a virtual environment:
    ```bash
