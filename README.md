@@ -2,6 +2,8 @@
 
 An interactive web application built using Python and Streamlit for performing common data cleaning and preprocessing tasks on CSV datasets.
 
+---
+
 ## Features
 
 - Upload CSV datasets
@@ -23,6 +25,32 @@ An interactive web application built using Python and Streamlit for performing c
   - Cap outliers
 - Download cleaned dataset as CSV
 
+---
+
+## Screenshots
+
+### Homepage
+![Homepage](screenshots/home.png)
+
+### Dataset Uploaded
+![Dataset Uploaded](screenshots/dataset%20inserted.png)
+
+### Working Example 1
+![Working Example 1](screenshots/working1.png)
+
+### Working Example 2
+![Working Example 2](screenshots/working2.png)
+
+---
+
+## Sample Dataset
+
+Download a sample CSV for testing the application:
+
+[Download Sample Dataset](sample_data/Titanic-Dataset.csv)
+
+---
+
 ## Technologies Used
 
 - Python
@@ -32,36 +60,53 @@ An interactive web application built using Python and Streamlit for performing c
 - Seaborn
 - Scikit-learn
 
+---
+
 ## Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/PrathviRaj60/Interactive-Data-Cleaning-and-Preprocessing-Tool.git
 cd Interactive-Data-Cleaning-and-Preprocessing-Tool
 ```
+
 Create virtual environment:
+
 ```bash
 python -m venv venv
 ```
-Activate virtual environment:
+
+Activate virtual environment (Windows):
+
 ```bash
 venv\Scripts\activate
 ```
+
 Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
+
 Run the application:
+
 ```bash
 streamlit run app.py
 ```
-## Future Improvements:
-- Correlation heatmaps
-- Automated preprocessing recommendations
-- Model training integration
-- Advanced data profiling
-- Preprocessing reports
+
 ---
 
-Author
-PrathviRaj
+## Future Improvements
+
+- Correlation heatmaps
+- Automated preprocessing recommendations
+- Advanced data profiling
+- Model training integration
+- Preprocessing reports
+
 ---
+
+## Author
+
+PrathviRaj
