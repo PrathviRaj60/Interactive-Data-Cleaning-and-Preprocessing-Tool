@@ -4,6 +4,12 @@ An interactive web application built using Python and Streamlit for performing c
 
 ---
 
+## Live Demo
+
+[Open Streamlit App](https://interactive-dct-tool-46350.streamlit.app)
+
+---
+
 ## Features
 
 - Upload CSV datasets
@@ -109,4 +115,4 @@ streamlit run app.py
 
 ## Author
 
-PrathviRaj
+Prathviraj
