@@ -1,53 +1,67 @@
-# 🧹 Interactive Data Cleaning & Preprocessing Tool
+# Interactive Data Cleaning & Preprocessing Tool
 
-An easy-to-use **Streamlit web app** that helps you clean and preprocess datasets without writing a single line of code.  
-Upload your CSV file, handle missing values, detect outliers, encode categorical variables, scale numeric data, and finally export the cleaned dataset.  
+An interactive web application built using Python and Streamlit for performing common data cleaning and preprocessing tasks on CSV datasets.
 
----
+## Features
 
-## ✨ Features
+- Upload CSV datasets
+- Handle missing values
+  - Drop rows
+  - Fill with Mean
+  - Fill with Median
+  - Fill with Mode
+- Automatic outlier detection using IQR
+- Boxplot visualization for outlier inspection
+- Categorical encoding
+  - Label Encoding
+  - One-Hot Encoding
+- Feature scaling
+  - Min-Max Scaling
+  - Standardization
+- Outlier handling
+  - Remove outliers
+  - Cap outliers
+- Download cleaned dataset as CSV
 
--  **Upload CSV** → Load your dataset instantly.  
--  **Handle Missing Values** → Drop rows, or fill using **Mean / Median / Mode**.  
--  **Outlier Detection** → Automatically suggests numeric columns with potential outliers + boxplot visualization.  
--  **Categorical Encoding** → Apply **Label Encoding** or **One-Hot Encoding**.  
--  **Normalization / Standardization** → Scale data using **Min-Max Scaling** or **Z-score Standardization**.  
--  **Outlier Handling** → Remove or cap outliers interactively.  
--  **Export** → Download the cleaned dataset as a CSV file.  
+## Technologies Used
 
----
+- Python
+- Streamlit
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-## Testing
- Try out the project using any dataset or use this: [Dataset for Cleaning and Preprocessing](https://drive.google.com/file/d/1OEA1DUkb245sqTYkCpopYTeCQk1XvsBX/view?usp=sharing)
-
-
-## 📦 Installation
-
-1. Clone this repository:
+## Installation
 
 ```bash
-git clone https://github.com/yPrathviRaj60/data-cleaning-tool.git data-cleaning-tool
-cd data-cleaning-tool
+git clone https://github.com/PrathviRaj60/Interactive-Data-Cleaning-and-Preprocessing-Tool.git
+cd Interactive-Data-Cleaning-and-Preprocessing-Tool
 ```
-
-(Optional but recommended) Create a virtual environment:
-   ```bash
-   python -m venv env
-   source env/bin/activate    # Mac/Linux
-   env\Scripts\activate       # Windows
-   ```
+Create virtual environment:
+```bash
+python -m venv venv
+```
+Activate virtual environment:
+```bash
+venv\Scripts\activate
+```
 Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-## ⚙️ Tech Stack
+```bash
+pip install -r requirements.txt
+```
+Run the application:
+```bash
+streamlit run app.py
+```
+## Future Improvements:
+- Correlation heatmaps
+- Automated preprocessing recommendations
+- Model training integration
+- Advanced data profiling
+- Preprocessing reports
+---
 
-Python 3.9+  
-Streamlit  
-Pandas  
-Matplotlib & Seaborn  
-Scikit-learn  
-
-## 📝 License
-
-This project is licensed under the MIT License – feel free to use and improve it.
+Author
+PrathviRaj
+---
