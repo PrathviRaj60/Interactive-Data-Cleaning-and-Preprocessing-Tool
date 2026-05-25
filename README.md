@@ -8,6 +8,7 @@ An interactive web application built using Python and Streamlit for performing c
 
 [Open Streamlit App](https://interactive-dct-tool-46350.streamlit.app)
 
+> Note: The Streamlit app may take a few seconds to load initially if it has been inactive.
 ---
 
 ## Features
